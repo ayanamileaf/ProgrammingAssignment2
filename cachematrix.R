@@ -42,7 +42,7 @@ cacheSolve <- function(x, ...) {
     x$setinverse(i)
   }
   else{
-    message("Getting cached data")
+    message("getting cached data")
   }
   ## Returns matrix inverse
   i
